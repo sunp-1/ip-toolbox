@@ -844,6 +844,7 @@ ip-toolbox/
 ├── LICENSE                       # MIT
 ├── CHANGELOG.md                  # 逐版本变更记录（口径为什么这么定）
 ├── .gitignore                    # 排除本地名单、API Key 与处理结果
+├── .gitattributes                # 行尾策略：仓库内 LF，.bat 检出 CRLF
 ├── docs/
 │   └── images/                       # 文首封面 00-gui-main.png
 └── .ip_tool_*                    # 首次运行后自动生成（不入库）

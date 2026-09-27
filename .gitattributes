@@ -1,0 +1,10 @@
+# 行尾策略：仓库内统一存 LF，避免不同机器 diff 一片红
+* text=auto
+
+# 但 .bat / .cmd 检出必须是 CRLF：旧版 cmd.exe 处理 LF 的 goto / 标签会出错
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 这些是二进制，别让 git 动它们
+*.png binary
+*.xlsx binary
