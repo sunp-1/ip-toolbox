@@ -1,0 +1,29 @@
+# ── 本地数据与密钥: 永不入库 ──────────────────────────
+.ip_tool_whitelist.txt
+.ip_tool_blacklist.txt
+.ip_tool_threatbook_key.txt
+.ip_tool_abuseipdb_key.txt
+.ip_tool_ti_source.txt
+.ip_tool_*
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ── 编辑器 / 系统 ─────────────────────────────────────
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# ── 处理结果 (避免误传目标清单) ────────────────────────
+out/
+output/
+*.result.txt
+
+# ── 本地开发资产: 只发布工具本体, 这些不入库 ───────────
+tests/
+docs/demo/

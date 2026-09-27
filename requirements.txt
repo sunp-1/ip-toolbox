@@ -1,0 +1,9 @@
+# IP Toolbox - 依赖清单
+# 核心功能仅依赖 Python 标准库 (tkinter/ipaddress/csv/urllib 等), 无需额外安装。
+# 以下为可选依赖, 按需安装: pip install -r requirements.txt
+
+# 支持读取 .xlsx (Excel) 文件
+openpyxl
+
+# 支持文件拖放到输入区 (GUI)
+tkinterdnd2
